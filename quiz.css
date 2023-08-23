@@ -48,33 +48,19 @@ body{
     text-align: center;
 }
 
-label{
-    display: block;
-    margin-top: 1rem;
-    padding: 0.5rem;
+.question-container{
+    width: 85%;
+    margin: 1rem auto;
     font-size: larger;
+    padding: 1rem 0;
 }
 
-.angle-input {
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    border: solid 2px var(--primary-color);
-    border-radius: 0.5rem;
-    font-size: large;
+.question{
+    margin: 1rem 0;
 }
 
-input {
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    border: solid 2px var(--primary-color);
-    border-radius: 0.5rem;
-    font-size: large;
+label{
+    padding: 1rem;
 }
 
 button{
@@ -88,6 +74,6 @@ button{
 }
 
 #output-container{
-    margin: 1rem;
+    margin: 2rem;
     font-size: large;
 }
